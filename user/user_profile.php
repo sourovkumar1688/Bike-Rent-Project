@@ -2,6 +2,12 @@
 
 <!-- Sidebar -->
 <?php require 'include/sidebar.php'; ?>
+<?php 
+  if (isset($_GET['action']) && $_GET['action']=='logout') {
+       Session::set("login", false); 
+       echo "<script>location.reload();</script>";
+    }
+?>
 
 <div id="page-wrapper">
 

@@ -60,7 +60,7 @@
       <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
       <li class="divider"></li> -->
       
-      <li><a href="index.php?action=logout"><i class="fa fa-power-off"></i> Log Out</a></li>
+      <li><a href="user_profile.php?action=logout"><i class="fa fa-power-off"></i> Log Out</a></li>
     </ul>
   </li>
 </ul>
